@@ -1,0 +1,1 @@
+setTimeout(()=>{const p=document.createElement('div');p.textContent='This is a delayed popup';p.style.cssText='position:fixed;top:30%;left:30%;background:#eee;padding:20px;border:1px solid #aaa;';document.body.appendChild(p);setTimeout(()=>p.remove(),4000);},3000);
